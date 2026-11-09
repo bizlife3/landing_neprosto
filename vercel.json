@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/thanks(\\.html)?", "methods": ["POST"], "status": 303, "headers": { "Location": "/thanks.html" } },
+    { "handle": "filesystem" }
+  ]
+}
